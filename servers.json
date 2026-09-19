@@ -1,15 +1,11 @@
-Enter{
+{
   "status": "success",
   "servers": [
     {
-      "country": "Germany",
+      "country": "Germany Test",
       "flag": "🇩🇪",
-      "config": "اینو پاک کنید و متن کامل و خام فایل ovpn یا وایرگارد خود را اینجا پیست کنید"
-    },
-    {
-      "country": "Finland",
-      "flag": "🇫🇮",
-      "config": "متن کانفیگ سرور دوم شما"
+      "protocol": "OpenVPN",
+      "config": "client\ndev tun\nproto tcp\nremote 1.2.3.4 443\nresolv-retry infinite\nnobind\npersist-key\npersist-tun\nremote-cert-tls server\nauth SHA256\ncipher AES-256-GCM\n<ca>\n-----BEGIN CERTIFICATE-----\nMIIFCDCCAvCgAwIBAgIQAsCdfv6gI3z/6r4W9X7ZzANBgkqhkiG9w0BAQsFADAe\nMRowGAYDVQQDExF2cG5nYXRlLWFjLWNhLWcyMB4XDTIwMDMxNTAwMDAwMFoXDTMw\nMDMxNTAwMDAwMFowGjEYMBYGA1UEAxMPdnBuMjE5MTAwMzcyMDAwggEiMA0GCSqG\nSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC6lRjT6R4wM\n-----END CERTIFICATE-----\n</ca>"
     }
   ]
 }
