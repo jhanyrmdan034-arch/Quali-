@@ -1,0 +1,15 @@
+Enter{
+  "status": "success",
+  "servers": [
+    {
+      "country": "Germany",
+      "flag": "🇩🇪",
+      "config": "اینو پاک کنید و متن کامل و خام فایل ovpn یا وایرگارد خود را اینجا پیست کنید"
+    },
+    {
+      "country": "Finland",
+      "flag": "🇫🇮",
+      "config": "متن کانفیگ سرور دوم شما"
+    }
+  ]
+}
